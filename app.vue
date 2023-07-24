@@ -1,0 +1,17 @@
+<template>
+   <NuxtPage />
+</template>
+<style>
+ @font-face {
+  font-family: Bienetre;
+  src: url('~/assets/Rubik-Regular.ttf');
+}
+
+
+.text-shadow-1 {
+    text-shadow: -1px 2px 7px rgba(0, 0, 0, 0.23);
+}
+body {
+  @apply bg-[#01121a];
+}
+</style>
