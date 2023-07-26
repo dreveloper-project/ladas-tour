@@ -4,7 +4,7 @@
 <style>
  @font-face {
   font-family: Bienetre;
-  src: url('~/assets/Rubik-Regular.ttf');
+  src: url('/Rubik-Regular.ttf');
 }
 
 

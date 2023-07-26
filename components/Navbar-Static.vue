@@ -31,7 +31,7 @@ onUnmounted(() => {
     <slot></slot>
     
     <!-- Image -->
-    <img class=" w-[35%] md:w-[15%]" src="~/assets/logo.png" alt="">
+    <img class=" w-[35%] md:w-[15%]" src="/images/logo.png" alt="">
     
     <!-- Large Device Link -->
     <ul id="nav-links" class=" text-shadow-1">
