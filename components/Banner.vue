@@ -64,7 +64,7 @@ var story = {
         <div class=" hidden md:block md:w-[30%] bg-[#01121a] backdrop-blur-lg p-4 relative  ">
             <transition name="fade">
                 <div v-if="store.windowPosition < 100" class=" relative top-[45%] flex flex-col gap-[1rem] mx-auto ">
-                    <img class=" " src="~/assets/logo.png" alt="">
+                    <img class=" " src="/logo.png" alt="">
                     <h2 class=" text-white text-[2rem] relative text-center ">Feels Nature and Culture Flores with Us</h2>
                     <button
                         class=" text-[#F2BE22] font-medium cursor-pointer hover:bg-[#F2BE22] hover:text-white p-2 transition-all duration-150 border-[#F2BE22] w-[50%] border-2 mx-auto">More
