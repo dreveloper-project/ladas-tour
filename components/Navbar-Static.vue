@@ -35,7 +35,7 @@ onUnmounted(() => {
     
     <!-- Large Device Link -->
     <ul id="nav-links" class=" text-shadow-1">
-      <li>Home</li>
+      <NuxtLink to="/"><li>Home</li></NuxtLink>
       <li>Tour</li>
       <li>Contacts</li>
       <li>About</li>
@@ -67,7 +67,7 @@ onUnmounted(() => {
       <!-- Mobile Link -->
        <transition name="fade">
       <ul v-if="store.isMenuOpen" id="mobile-links" class=" text-shadow-1">
-        <li>Home</li>
+         <NuxtLink to="/"><li>Home</li></NuxtLink>
         <li>Tour</li>
         <li>Contacts</li>
         <li>About</li>

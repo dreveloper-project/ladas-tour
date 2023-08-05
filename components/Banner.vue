@@ -29,32 +29,32 @@ const getImage = function (params) {
 
 const store = useNavigationStore();
 
-const slides = [
-    {
-        image: '/images/Banner.jpg',
-        description: 'Cute kitten 1',
-        story: `Labuan Bajo yang dikenal sebagai surga nusantara saat ini menjadi destinasi yang banyak diminati oleh seluruh kalangan. Kota kecil   ini menyuguhkan banyak keindahan alam; bahari  Tadan lautan  Taman Nasional Komodo yang menakjubkan dan wajib anda  nikmati. 
- Paket wisata La Da's merupakan salah satu paket wisata open trip di Labuan Bajo yang menawarkan beragam program wisata alam Taman Nasional Komodo yang dapat anda pilih untuk mendapatkan pengalaman berharga bersama sahabat;keluarga ataupun kekasih selama di Labuan Bajo.`
+// const slides = [
+//     {
+//         image: '/images/Banner.jpg',
+//         description: 'Cute kitten 1',
+//         story: `Labuan Bajo yang dikenal sebagai surga nusantara saat ini menjadi destinasi yang banyak diminati oleh seluruh kalangan. Kota kecil   ini menyuguhkan banyak keindahan alam; bahari  Tadan lautan  Taman Nasional Komodo yang menakjubkan dan wajib anda  nikmati. 
+//  Paket wisata La Da's merupakan salah satu paket wisata open trip di Labuan Bajo yang menawarkan beragam program wisata alam Taman Nasional Komodo yang dapat anda pilih untuk mendapatkan pengalaman berharga bersama sahabat;keluarga ataupun kekasih selama di Labuan Bajo.`
 
-    },
-    {
-        image: '/images/Banner-2.jpg',
-        description: 'Cute kitten 2',
-        story: `Labuan Bajo yang dikenal sebagai surga nusantara saat ini menjadi destinasi yang banyak diminati oleh seluruh kalangan. Kota kecil   ini menyuguhkan banyak keindahan alam; bahari  Tadan lautan  Taman Nasional Komodo yang menakjubkan dan wajib anda  nikmati. 
- Paket wisata La Da's merupakan salah satu paket wisata open trip di Labuan Bajo yang menawarkan beragam program wisata alam Taman Nasional Komodo yang dapat anda pilih untuk mendapatkan pengalaman berharga bersama sahabat;keluarga ataupun kekasih selama di Labuan Bajo.`
+//     },
+//     {
+//         image: '/images/Banner-2.jpg',
+//         description: 'Cute kitten 2',
+//         story: `Labuan Bajo yang dikenal sebagai surga nusantara saat ini menjadi destinasi yang banyak diminati oleh seluruh kalangan. Kota kecil   ini menyuguhkan banyak keindahan alam; bahari  Tadan lautan  Taman Nasional Komodo yang menakjubkan dan wajib anda  nikmati. 
+//  Paket wisata La Da's merupakan salah satu paket wisata open trip di Labuan Bajo yang menawarkan beragam program wisata alam Taman Nasional Komodo yang dapat anda pilih untuk mendapatkan pengalaman berharga bersama sahabat;keluarga ataupun kekasih selama di Labuan Bajo.`
 
-    },
-    {
-        image: '/images/Banner-3.jpg',
-        description: 'Cute kitten 3',
-        story: `Labuan Bajo yang dikenal sebagai surga nusantara saat ini menjadi destinasi yang banyak diminati oleh seluruh kalangan. Kota kecil   ini menyuguhkan banyak keindahan alam; bahari  Tadan lautan  Taman Nasional Komodo yang menakjubkan dan wajib anda  nikmati. 
- Paket wisata La Da's merupakan salah satu paket wisata open trip di Labuan Bajo yang menawarkan beragam program wisata alam Taman Nasional Komodo yang dapat anda pilih untuk mendapatkan pengalaman berharga bersama sahabat;keluarga ataupun kekasih selama di Labuan Bajo.`
+//     },
+//     {
+//         image: '/images/Banner-3.jpg',
+//         description: 'Cute kitten 3',
+//         story: `Labuan Bajo yang dikenal sebagai surga nusantara saat ini menjadi destinasi yang banyak diminati oleh seluruh kalangan. Kota kecil   ini menyuguhkan banyak keindahan alam; bahari  Tadan lautan  Taman Nasional Komodo yang menakjubkan dan wajib anda  nikmati. 
+//  Paket wisata La Da's merupakan salah satu paket wisata open trip di Labuan Bajo yang menawarkan beragam program wisata alam Taman Nasional Komodo yang dapat anda pilih untuk mendapatkan pengalaman berharga bersama sahabat;keluarga ataupun kekasih selama di Labuan Bajo.`
 
-    }
-];
+//     }
+// ];
 
-var story = {
-}
+// var story = {
+// }
 
 </script>
 <template>
@@ -137,18 +137,48 @@ var story = {
 
             <!-- Swiper Wrapper -->
             <div class="swiper-wrapper">
-                <div class="swiper-slide" v-for="i in slides">
+                <div class="swiper-slide">
 
                     <!-- Bside Description -->
                     <div class="absolute hidden md:block bg-black bg-opacity-70 p-3 md:top-[60%] lg:top-[68%] left-[5%] w-[80%]">
-                        <p class="text-white">{{ i.story }}</p>
+                        <p class="text-white">
+                        Paket wisata La Da's merupakan salah satu paket wisata open trip di Labuan Bajo yang menawarkan beragam program wisata alam Taman Nasional Komodo yang dapat anda pilih untuk mendapatkan pengalaman berharga bersama sahabat;keluarga ataupun kekasih selama di Labuan Bajo.
+                        </p>
                         <button
                             class=" text-[#F2BE22] font-medium cursor-pointer hover:scale-110 transition-all duration-150">More
                             Story..</button>
                     </div>
 
-                    <img class="img-slider" :src="i.image" :alt="i.description">
+                    <img class="img-slider" src="~/assets/images/Banner-3.jpg" alt="description">
                 </div>
+                <div class="swiper-slide">
+
+                        <!-- Bside Description -->
+                        <div class="absolute hidden md:block bg-black bg-opacity-70 p-3 md:top-[60%] lg:top-[68%] left-[5%] w-[80%]">
+                            <p class="text-white">
+                            Paket wisata La Da's merupakan salah satu paket wisata open trip di Labuan Bajo yang menawarkan beragam program wisata alam Taman Nasional Komodo yang dapat anda pilih untuk mendapatkan pengalaman berharga bersama sahabat;keluarga ataupun kekasih selama di Labuan Bajo.
+                            </p>
+                            <button
+                                class=" text-[#F2BE22] font-medium cursor-pointer hover:scale-110 transition-all duration-150">More
+                                Story..</button>
+                        </div>
+
+                        <img class="img-slider" src="~/assets/images/Banner-2.jpg" alt="description">
+                    </div>
+                <div class="swiper-slide">
+
+                        <!-- Bside Description -->
+                        <div class="absolute hidden md:block bg-black bg-opacity-70 p-3 md:top-[60%] lg:top-[68%] left-[5%] w-[80%]">
+                            <p class="text-white">
+                            Paket wisata La Da's merupakan salah satu paket wisata open trip di Labuan Bajo yang menawarkan beragam program wisata alam Taman Nasional Komodo yang dapat anda pilih untuk mendapatkan pengalaman berharga bersama sahabat;keluarga ataupun kekasih selama di Labuan Bajo.
+                            </p>
+                            <button
+                                class=" text-[#F2BE22] font-medium cursor-pointer hover:scale-110 transition-all duration-150">More
+                                Story..</button>
+                        </div>
+
+                        <img class="img-slider" src="~/assets/images/Banner.jpg" alt="description">
+                    </div>
             </div>
 
         </div>

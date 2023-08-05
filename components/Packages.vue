@@ -13,19 +13,19 @@
             <img src="/images/package-1.jpg" alt="">
             <h3>Package Tour</h3>
             <p>3 Days</p>
-            <button>Details</button>
+            <NuxtLink to="/packages/2day1night"><button>Details</button></NuxtLink>
         </div>
         <div class="package" data-aos="zoom-in">
             <img src="/images/package-2.jpg" alt="">
             <h3>Package Tour</h3>
             <p>3 Days</p>
-            <button>Details</button>
+             <NuxtLink to="/packages/2day1night"><button>Details</button></NuxtLink>
         </div>
         <div class="package" data-aos="zoom-in">
             <img src="/images/package-3.jpg" alt="">
             <h3>Package Tour</h3>
             <p>3 Days</p>
-            <button>Details</button>
+             <NuxtLink to="/packages/2day1night"><button>Details</button></NuxtLink>
         </div>
     </div>
 </template>
