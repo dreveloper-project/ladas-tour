@@ -42,9 +42,9 @@ export default {
              <h2>Live On Board 3D/2N</h2>
 
              <div class="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-4 my-5">
-                <img src="/trip-photos/Trip (1).jpg" alt="Image 1" class="object-cover w-full h-full">
-                <img src="/trip-photos/Trip (2).jpg" alt="Image 2" class="object-cover w-full h-full">
-                <img src="/trip-photos/Trip (3).jpg" alt="Image 3" class="object-cover w-full h-full">
+                <img src="/tripphotos/Trip1.jpg" alt="Image 1" class="object-cover w-full h-full">
+                <img src="/tripphotos/Trip2.jpg" alt="Image 2" class="object-cover w-full h-full">
+                <img src="/tripphotos/Trip3.jpg" alt="Image 3" class="object-cover w-full h-full">
                 
              </div>
 
