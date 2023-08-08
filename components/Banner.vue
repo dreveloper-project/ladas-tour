@@ -61,7 +61,7 @@ const store = useNavigationStore();
     <div class=" h-[60vh] z-20 md:h-[80vh] lg:h-[100vh] bg-center flex ">
 
         <!-- Aside Banner -->
-        <div class=" hidden md:block md:w-[30%] bg-[#01121a] backdrop-blur-lg p-4 relative  ">
+        <div class=" hidden md:block md:w-[30%] bg-[#4d99c9] backdrop-blur-lg p-4 relative z-20 ">
             <transition name="fade">
                 <div v-if="store.windowPosition < 100" class=" relative top-[45%] flex flex-col gap-[1rem] mx-auto ">
                     <img class=" " src="/images/logo.png" alt="">
@@ -186,7 +186,7 @@ const store = useNavigationStore();
     </div>
 
     <!-- Description Extension For Mobile -->
-    <div class=" bg-[#01121a] rounded-t-2xl md:hidden z-30 mt-[-25px] h-[45vh] relative flex flex-col gap-[1rem] justify-center ">
+    <div class=" bg-[#155F8C] rounded-t-2xl md:hidden z-30 mt-[-25px] h-[45vh] relative flex flex-col gap-[1rem] justify-center ">
         <img class=" scale-75 " src="/images/logo.png" alt="">
         <h2 class=" text-white text-[1.6rem] relative text-center mt-[-1rem] ">Feels Nature and Culture Flores with Us</h2>
         <button class=" text-[#F2BE22] font-medium cursor-pointer hover:scale-110 transition-all duration-150">More

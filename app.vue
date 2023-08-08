@@ -12,6 +12,6 @@
     text-shadow: -1px 2px 7px rgba(0, 0, 0, 0.23);
 }
 body {
-  @apply bg-[#01121a];
+  @apply bg-[#4d99c9];
 }
 </style>

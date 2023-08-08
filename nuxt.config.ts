@@ -16,7 +16,9 @@ export default defineNuxtConfig({
     },
 
     plugins: [
-        { src: '~/plugins/swiper.client.js', mode: 'client' }
+        { src: '~/plugins/swiper.client.js', mode: 'client' },
+        { src: '~/plugins/aos.client.js', mode: 'client' },
+        { src: '~/plugins/simpleParallax.js', mode: 'client' },
     ],
     
     vuetify: {

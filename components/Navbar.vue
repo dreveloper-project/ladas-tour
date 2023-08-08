@@ -25,9 +25,9 @@ onUnmounted(() => {
 </script>
 
 <template >
-  
-  <nav :class=" store.windowPosition > 100 ? 'md:bg-[#01121a]' : 'md:bg-opacity-0' "
-    class=" w-full bg-[#01121a] fixed top-0 flex items-center z-40 justify-between md:px-12 py-5 transition-all duration-150 ease-in">
+  <!-- 4d99c9 -->
+  <nav :class=" store.windowPosition > 100 ? 'md:bg-[#4d99c9]' : 'md:bg-opacity-0' "
+    class=" w-full bg-[#4d99c9] fixed top-0 flex items-center z-40 justify-between md:px-12 py-5 transition-all duration-150 ease-in">
     <slot></slot>
     
     <!-- Image -->
@@ -84,16 +84,16 @@ onUnmounted(() => {
 }
 
 #nav-links li {
-  @apply text-white font-medium text-[1.1rem] md:text-[1.34rem] hover:text-yellow-600 transition-all duration-100;
+  @apply text-white font-medium text-[1.1rem] md:text-[1.34rem] hover:text-[#f5f75c] transition-all duration-100;
 }
 
 #mobile-links {
-  @apply absolute bg-[#01121a] flex gap-5 py-5 flex-col items-center w-[15rem] top-[100%] ;
+  @apply absolute bg-[#4d99c9] flex gap-5 py-5 flex-col items-center w-[15rem] top-[100%] ;
   font-family: Bienetre;
 }
 
 #mobile-links li {
-  @apply text-white font-medium text-[1.4rem] hover:text-yellow-600 transition-all duration-100;
+  @apply text-white font-medium text-[1.4rem] hover:text-[#f5f75c] transition-all duration-100;
 }
 
 .fade-enter-active,

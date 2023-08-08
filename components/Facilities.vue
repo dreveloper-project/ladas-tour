@@ -1,6 +1,6 @@
 <template>
 
-   <div class="flex flex-col items-center md:flex-row px-12 bg-[url('/images/package-5.jpg')] bg-cover bg-center ">
+   <div class="flex flex-col items-center md:flex-row px-12 bg-[url('/images/package-5.jpg')] bg-cover bg-center impar ">
         <div class=" w-[50%] flex flex-col justify-center items-center">
             
             <!-- <img src="~/assets/images/package-5.jpg" class=" w-[22rem] rounded-xl" alt=""> -->
@@ -31,6 +31,8 @@
                 <div class="facility"></div>
             </div>
         </div>
+
+
    </div>
 
 </template>
