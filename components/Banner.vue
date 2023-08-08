@@ -149,7 +149,7 @@ const store = useNavigationStore();
                             Story..</button>
                     </div>
 
-                    <img class="img-slider" src="~/assets/images/Banner-3.jpg" alt="description">
+                    <img class="img-slider" src="~/assets/images/banner-3.jpg" alt="description">
                 </div>
                 <div class="swiper-slide">
 
@@ -163,7 +163,7 @@ const store = useNavigationStore();
                                 Story..</button>
                         </div>
 
-                        <img class="img-slider" src="~/assets/images/Banner-2.jpg" alt="description">
+                        <img class="img-slider" src="~/assets/images/banner-2.jpg" alt="description">
                     </div>
                 <div class="swiper-slide">
 
@@ -177,7 +177,7 @@ const store = useNavigationStore();
                                 Story..</button>
                         </div>
 
-                        <img class="img-slider" src="~/assets/images/Banner.jpg" alt="description">
+                        <img class="img-slider" src="~/assets/images/banner.jpg" alt="description">
                     </div>
             </div>
 
