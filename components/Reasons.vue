@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[40vh] lg:h-[100vh] relative  ">
+    <div class="mb-[2rem] md:mb-0 lg:h-[100vh] relative  ">
         <img id="bg-reasons" src="/images/package-4.jpg" class=" impar2 " alt="">
        <div class="flex md:flex items-center justify-around mt-[8rem]">
          <div class=" md:pl-0 md:w-[20%] py-9 z-10" data-aos="fade-down">

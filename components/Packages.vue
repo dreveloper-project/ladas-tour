@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[url('/images/package-6.jpg')] bg-cover bg-center pt-10 pb-14 h-[100vh]">
+    <div class="bg-[url('/images/package-6.jpg')] bg-cover bg-center pt-10 pb-14 md:h-[100vh]">
     <div class=" w-[80%] mx-auto " data-aos="fade-down" >
         <h2 class=" text-[2rem] text-white md:text-[2.3rem] mt-8">Our Tour Package</h2>
         <p class=" text-[1rem] md:text-[1rem] md:mt-[-0.7rem] text-white">Best Tour And Travel Service Just
@@ -11,16 +11,16 @@
     <div class=" flex justify-center gap-[2rem] flex-wrap w-[80%] mx-auto mt-8">
         <div class="package" data-aos="fade-right"  data-aos-duration="3000">
             <img src="/images/package-1.jpg" alt="">
-            <h3>Package Tour</h3>
-            <p>3 Days</p>
-            <div class=" flex justify-between"><p>IDR. 1.500.000</p><NuxtLink to="/packages/2day1night"><button>Details</button></NuxtLink></div>
+            <h3>Living On Board</h3>
+            <p>3 Days 2 Night</p>
+            <div class=" flex justify-between"><p>IDR. 3.250.000</p><NuxtLink to="/packages/3day2night"><button>Details</button></NuxtLink></div>
             
         </div>
         <div class="package" data-aos="zoom-in"  data-aos-duration="1000">
             <img src="/images/package-2.jpg" alt="">
-            <h3>Package Tour</h3>
-            <p>3 Days</p>
-            <div class=" flex justify-between"><p>IDR. 1.500.000</p><NuxtLink to="/packages/2day1night"><button>Details</button></NuxtLink></div> 
+            <h3>Tour</h3>
+            <p>2 Days 1 Night</p>
+            <div class=" flex justify-between"><p>IDR. 2.450.000</p><NuxtLink to="/packages/2day1night"><button>Details</button></NuxtLink></div> 
             
         </div>
         <div class="package" data-aos="fade-left"  data-aos-duration="2000">
