@@ -7,6 +7,7 @@
         <Packages />
         <Reviews />
         <Facilities />
+        <Footer />
     </div>
 </template>
 

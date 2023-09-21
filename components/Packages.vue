@@ -13,23 +13,31 @@
             <img src="/images/package-1.jpg" alt="">
             <h3>Living On Board</h3>
             <p>3 Days 2 Night</p>
-            <div class=" flex justify-between"><p>IDR. 3.250.000</p><NuxtLink to="/packages/3day2night"><button>Details</button></NuxtLink></div>
+            <div class=" flex justify-between"><NuxtLink to="/packages/3day2night"><button>Details</button></NuxtLink></div>
             
         </div>
         <div class="package" data-aos="zoom-in"  data-aos-duration="1000">
             <img src="/images/package-2.jpg" alt="">
             <h3>Tour</h3>
             <p>2 Days 1 Night</p>
-            <div class=" flex justify-between"><p>IDR. 2.450.000</p><NuxtLink to="/packages/2day1night"><button>Details</button></NuxtLink></div> 
+            <div class=" flex justify-between"><NuxtLink to="/packages/2day1night"><button>Details</button></NuxtLink></div> 
             
         </div>
         <div class="package" data-aos="fade-left"  data-aos-duration="2000">
             <img src="/images/package-3.jpg" alt="">
-            <h3>Package Tour</h3>
-            <p>3 Days</p>
-            <div class=" flex justify-between"><p>IDR. 1.500.000</p><NuxtLink to="/packages/2day1night"><button>Details</button></NuxtLink></div> 
+            <h3>Honeymoon Package</h3>
+            <p>3 Days 2 Night</p>
+            <div class=" flex justify-between"><NuxtLink to="/packages/honeymoon"><button>Details</button></NuxtLink></div> 
             
         </div>
+         <div class="package" data-aos="fade-left"  data-aos-duration="2000">
+                <img src="/images/package-5.jpg" alt="">
+                <h3>Live On Board</h3>
+                <p>4 Days 3 Nights </p>
+                <div class=" flex justify-between"><NuxtLink to="/packages/4day3night"><button>Details</button></NuxtLink></div> 
+            
+            </div>
+         
     </div>
     </div>
 </template>
