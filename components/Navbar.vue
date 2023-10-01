@@ -36,8 +36,8 @@ onUnmounted(() => {
     <!-- Large Device Link -->
     <ul id="nav-links" class=" text-shadow-1">
        <NuxtLink to="/"><li>Home</li></NuxtLink>
-      <li>Tour</li>
-      <li>Contacts</li>
+       <NuxtLink to="/Package"><li>Tour</li></NuxtLink>
+     <NuxtLink to="/Contacts"><li>Contacts</li></NuxtLink>
       <li>About</li>
     </ul>
 

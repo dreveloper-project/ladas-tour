@@ -36,9 +36,9 @@ export default {
           <h2>Live On Board 3D/2N</h2>
 
           <div class="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-4 my-5">
-            <img src="/tripphotos/Trip1.jpg" alt="Image 1" class="object-cover w-full h-full">
-            <img src="/tripphotos/Trip2.jpg" alt="Image 2" class="object-cover w-full h-full">
-            <img src="/tripphotos/Trip3.jpg" alt="Image 3" class="object-cover w-full h-full">
+            <img src="/lalunia/lalunia1.jpg" alt="Image 1" class="object-cover w-full h-full">
+            <img src="/lalunia/lalunia2.jpg" alt="Image 2" class="object-cover w-full h-full">
+            <img src="/lalunia/lalunia3.jpg" alt="Image 3" class="object-cover w-full h-full">
 
           </div>
 
@@ -57,38 +57,35 @@ export default {
         <!-- Iternary Tabs -->
         <div v-if="activeTab === 'Iternary'">
 
-          <h2>Day 01 : Penjemputan di hotel-Pulau kelor- Manjarite- Pulau Kalong-pulau padar.</h2>
-          <ul>
-            <li>Penjemputan di hotel/Bandara</li>
-            <li>Berlayar ke pulau kelor-trekking kepuncak bukit mengabadikan moment di puncak bukit kelor, dan melihat
-              produk masyarakat pesisir yang bisa dibeli dan dibawa pulang sebagai oleh-oleh;</li>
-            <li>Berlayar ke manjarite dengan menghabiskan waktu sekitar 20 menit untuk Snorkelling;</li>
-            <li>Berlayar ke Pulau Kalong untuk menikmati sunset dan melihat kalong/kelelawar keluar dari Goa di atas Kapal
-              ;</li>
-            <li>Berlayar menuju padar makan malam dan bermalam di kapal sambil menikmati keindahan langit dimalam hari;
-            </li>
-
-          </ul>
+          <h2>Day 01 : Airport - Check in Hotel - Dinner </h2>
+          <p>On arrival at Komodo Airport and will be welcomed by out local
+            guide
+            Drop to hotel and check in
+            Pick up for Dinner and Sunset on the boat/Restaurant</p>
 
           <h2>Day 02 : Penjemputan di hotel-Pulau kelor- Manjarite- Pulau Kalong-pulau padar.</h2>
-          <p>Trekking menuju puncak pulau padar untuk menikmati sunrise dan berfoto kemudian kembali
-            kekapal untuk sarapan lalu berlayar menuju pulau komodo untuk trekking dan melihat komodo,
-            ada beberapa pilihan Trekking yang tersedia yaitu:
-            Short track (1 jam), Medium (1,5 jam) dan long walk (2.5 jam). di pulau Komodo pengunjung
-            akan dipandu oleh Ranger yang telah berpengalaman dan mempunyai pengetahuan mengenai
-            kawasan tersebut. Para Rangers (Naturalist Guide) akan membuat anda aman dan nyaman dan
-            akan mendampingi selama perjalanan Trekking dikawasan pulau komodo.
-            Setelah selesai di Pulau komodo anda akan berlayar menuju pink beach untuk snorkelling lalu
-            kemudian menuju manta point untuk snorkeling bersama kawanan manta, Setelah itu menuju
-            pulau Siaba bermalam disana.
-          </p>
+          <ul class="list-disc list-inside">
+            <li>Breakfast at Hotel</li>
+            <li>Guide will pick you up at the hotel and drop you off at the harbor</li>
+            <li>Start sailing at 07.30 am</li>
+            <li>Start tracking to Pulau Padar to enjoy the view and take pictures</li>
+            <li>Continue to Pink Beach: Swimming and taking pictures with pink sand</li>
+            <li>Lunch will be served on the boat</li>
+            <li>Sail to Komodo Island, track the Komodo route to explore the Komodo dragon</li>
+            <li>Sail to Kanawa Island for snorkeling and enjoying the island</li>
+            <li>Back to Labuan Bajo</li>
+            <li>Drop off at the hotel</li>
+            <li>Free time</li>
+          </ul>
 
-          <h2>Day 03 : Syaba- Kanawa Island- Bidadari island- Hotel/Bandar/.</h2>
-          <p>
-            Hari ke-3 setelah Sarapan akan dimulai dengan mengunjungi Pulau Syaba untuk snorkeling
-  melihat penyu dan keanekaragaman coral dan ikan didalam kawasan pulau tersebut dan
-  dialnjutkan dengan meng
-          </p>
+
+          <h2>Day 03 : Sailing Taman Nasional Komodo ONE DAY TOUR.</h2>
+          <ul class="list-disc list-inside">
+    <li>Breakfast at Hotel</li>
+    <li>Drop to Souvenir Shop</li>
+    <li>Drop to Airport for flight to the next Destination</li>
+  </ul>
+
 
         </div>
 
@@ -97,43 +94,57 @@ export default {
 
           <h2>Include</h2>
 
-          <ul>
+          <ul class="list-disc list-inside">
+    <li>Transportation by car in and out of Labuan Bajo</li>
+    <li>Dinner at sunset on the boat or at a local restaurant (Day 1)</li>
+    <li>Entrance Fee to Komodo National Park for Foreigners</li>
+    <li>English Speaking Guide</li>
+    <li>2-Night stay at Silvia Resort Hotel 3*</li>
+    <li>1-Day Trip by Speedboat</li>
+    <ul class="list-disc list-inside ml-4">
+      <li>Meals: Lunch on the speedboat</li>
+      <li>Coffee and Snacks</li>
+      <li>Mineral Water</li>
+      <li>Snorkeling Gear</li>
+      <li>Life Jacket</li>
+      <li>Towel</li>
+    </ul>
+    <li>12-Seat Hi-Ace Van</li>
+    <li>Innova Reborn for groups of less than 5 people</li>
+    <li>Private Photographer on the trip to Komodo National Park (Go-Pro, Drone, and Mirrorless Camera)</li>
+  </ul>
 
-              <li>Kapal Ber AC , semi/ luxury phinisi ;</li>
-    <li>Makan ( Breakfast ,Lunch ,Dinner) selama trip;</li>
-    <li>Air mineral</li>
-    <li>Alat snorkelling</li>
-    <li>Tour guide</li>
-    <li>Kopi tea dan snack</li>
-    <li>Dokumentasi</li>
-          </ul>
 
 
           <h2>Exclude</h2>
-          
-          <ul>
-                <li>Biaya Hotel</li>
-      <li>Tiket keberangkatan</li>
-      <li>Seluruh entrance fee di TNK</li>
-      <li>Asuransi perjalanan</li>
-      <li>Minuman ringan dan beralkohol</li>
-          </ul>
 
-
-          <h2>Perlengkapan Yang Harus DiBawa</h2>
-  <ul>
-    <li>Sepatu treking, baju renang, handuk, tabir surya/kaca mata hitam/topi, kamera/kamera video, uang tunai (IDR)</li>
+          <ul class="list-disc list-inside">
+    <li>Return flight ticket</li>
+    <li>Soft drinks & alcohol</li>
+    <li>Tipping</li>
   </ul>
 
-  <p><strong>Catatan penting</strong></p>
-  <ul>
-    <li>Tur ini hanya tersedia dari Labuan Bajo</li>
-    <li>Silahkan kirim nama lengkap, nomor paspor, ukuran sepatu, dan nama hotel yang anda pilih di Labuan Bajo;</li>
-    <li>Anda harus memesan sedini mungkin</li>
-    <li>Bersiaplah tepat waktu sesuai dengan waktu yang telah ditentukan.</li>
+
+          <h2>Note :</h2>
+          <ul class="list-disc list-inside">
+    <li>Itinerary Program may change according to conditions or situations while on the trip, in case of FORCE MAJEURE. Force Majeure refers to a state of coercion beyond the limits of the capabilities of both parties, which can disrupt or even thwart the implementation of activities, such as natural disasters, wars, strikes, sabotage, a community blockade, government actions, especially due to circumstances beyond human capabilities.</li>
+    <li>The Availability of the boat and rooms at the hotel used in this quotation will be subject to availability when the guest confirms.</li>
+    <li>Transportation used in this quotation as follows:
+      <ul class="list-disc list-inside ml-4">
+        <li>2 - 5 Paxs: Innova</li>
+        <li>5 - 12 Paxs: Elf 12 seat/Hiace</li>
+      </ul>
+    </li>
+    <li>Flight Information:
+      <ul class="list-disc list-inside ml-4">
+        <li>Estimated time of Arrival (ETA): 15:15 PM</li>
+        <li>Estimated time of Departure (ETD): 10:10 PM</li>
+      </ul>
+    </li>
+    <li>Prices can change at any time considering that government regulations regarding the entrance fees of tourist destinations change every year.</li>
+    <li>Prices can change at any time if there is an increase in fuel rates.</li>
   </ul>
 
-  <p><em>Note: Please, jangan mengambil karang, kerang atau pasir, jagalah alam dengan apa adanya selain dilarang anda akan mendapatkan masalah di airport.</em></p>
 
         </div>
 

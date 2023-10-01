@@ -39,6 +39,11 @@
             </div>
          
     </div>
+    <div class="flex justify-center mt-6">
+        <NuxtLink to="/Package"> <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">
+      More..
+    </button></NuxtLink>
+    </div>
     </div>
 </template>
 <style>
