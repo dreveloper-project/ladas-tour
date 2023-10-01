@@ -36,9 +36,7 @@ export default {
           <h2>Live On Board 3D/2N</h2>
 
           <div class="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-4 my-5">
-            <img src="/lalunia/lalunia1.jpg" alt="Image 1" class="object-cover w-full h-full">
-            <img src="/lalunia/lalunia2.jpg" alt="Image 2" class="object-cover w-full h-full">
-            <img src="/lalunia/lalunia3.jpg" alt="Image 3" class="object-cover w-full h-full">
+          
 
           </div>
 
